@@ -1,0 +1,23 @@
+Release 9.2.04i - xst J.40
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.30 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/MUX2V5 is now defined in a different file.  It was defined in "C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab7/LAB7/mips/MUX2V5.vhd", and is now defined in "C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab7/mips/MUX2V5.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX2V5/Behavioral is now defined in a different file.  It was defined in "C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab7/LAB7/mips/MUX2V5.vhd", and is now defined in "C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab7/mips/MUX2V5.vhd".
+Compiling vhdl file "C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab7/mips/MUX2V5.vhd" in Library work.
+Architecture behavioral of Entity mux2v5 is up to date.
+CPU : 0.37 / 0.67 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 175292 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="3">
+<DesignStatistics TimeStamp="Sun Apr 11 23:11:36 2021"><group name="NetStatistics">
+<item name="NumNets_Active" rev="3">
+<attrib name="value" value="32"/></item>
+<item name="NumNets_Gnd" rev="3">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_INPUT" rev="3">
+<attrib name="value" value="32"/></item>
+<item name="NumNodesOfType_Gnd_OMUX" rev="3">
+<attrib name="value" value="32"/></item>
+<item name="NumNodesOfType_Gnd_OUTPUT" rev="3">
+<attrib name="value" value="17"/></item>
+</group>
+<group name="MiscellaneousStatistics">
+<item name="AVG_LUT_FAN_IN" rev="2">
+<attrib name="value" value="-1.000000"/></item>
+<item name="AVG_SIG_FANOUT" rev="2">
+<attrib name="value" value="-1.000000"/></item>
+<item name="PK_NUM_BONDED_IOBS" rev="2">
+<attrib name="value" value="32"/></item>
+<item name="PK_NUM_JTAG_GATES" rev="2">
+<attrib name="value" value="32"/></item>
+</group>
+</DesignStatistics>
+<DeviceUsage TimeStamp="Sun Apr 11 23:11:36 2021"><group name="SiteSummary">
+<item name="IOB" rev="3">
+<attrib name="total" value="1000000"/><attrib name="used" value="32"/></item>
+<item name="IOB_OUTBUF" rev="3">
+<attrib name="total" value="1000000"/><attrib name="used" value="32"/></item>
+<item name="IOB_PAD" rev="3">
+<attrib name="total" value="1000000"/><attrib name="used" value="32"/></item>
+</group>
+</DeviceUsage>
+<ReportConfigData TimeStamp="Sun Apr 11 23:11:36 2021"><group name="IOB_PAD">
+<item name="DRIVEATTRBOX" rev="3">
+<attrib name="12" value="32"/></item>
+<item name="IOATTRBOX" rev="3">
+<attrib name="LVCMOS25" value="32"/></item>
+<item name="SLEW" rev="3">
+<attrib name="SLOW" value="32"/></item>
+</group>
+</ReportConfigData>
+<ReportPinData TimeStamp="Sun Apr 11 23:11:36 2021"><group name="IOB_OUTBUF">
+<item name="IN" rev="3">
+<attrib name="value" value="32"/></item>
+<item name="OUT" rev="3">
+<attrib name="value" value="32"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="PAD" rev="3">
+<attrib name="value" value="32"/></item>
+</group>
+<group name="IOB">
+<item name="O1" rev="3">
+<attrib name="value" value="32"/></item>
+<item name="PAD" rev="3">
+<attrib name="value" value="32"/></item>
+</group>
+</ReportPinData>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

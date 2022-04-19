@@ -1,0 +1,1 @@
+sch2vhdl -intstyle ise -family aspartan3 -flat -suppress -w "C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab2/as4/sum1g.sch" sum1g.vhf

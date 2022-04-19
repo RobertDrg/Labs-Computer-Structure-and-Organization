@@ -1,0 +1,175 @@
+<HTML><HEAD><TITLE>Device Usage Statistics Report</TITLE></HEAD>
+<BODY TEXT='#000000' BGCOLOR='#FFFFFF' LINK='#0000EE' VLINK='#551A8B' ALINK='#FF0000'>
+<H3>Device Usage Page (device_usage_statistics.html)</H3>This HTML page displays the device usage statistics that will be sent to Xilinx. The file also contains predefined XML tags used to simplify processing.<BR>&nbsp;<BR>Please verify the contents are okay to send to Xilinx!<BR>&nbsp;<BR><HR>&nbsp;<BR>
+<TABLE BORDER CELLSPACING=0 WIDTH='100%'>
+<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD COLSPAN='4'><B>Software Version and Target Device</B></TD></TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Product Version:</B></TD>
+<TD><xtag-property name="ProductVersion">ISE:9.2.04i</xtag-property></TD>
+<TD BGCOLOR='#FFFF99'><B>Target Family:</B></TD>
+<TD><xtag-property name="TargetFamily">spartan3</xtag-property></TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>OS Platform:</B></TD>
+<TD><xtag-property name="OSPlatform">NT</xtag-property></TD>
+<TD BGCOLOR='#FFFF99'><B>Target Device:</B></TD>
+<TD><xtag-property name="TargetDevice">xc3s400</xtag-property></TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Project ID (random number)</B></TD>
+<TD><xtag-property name="ProjectID">15174</xtag-property>.<xtag-property name="ProjectIteration">1</xtag-property></TD>
+<TD BGCOLOR='#FFFF99'><B>Target Package:</B></TD>
+<TD><xtag-property name="TargetPackage">ft256</xtag-property></TD>
+</TR>
+<TR ALIGN=LEFT>
+<TD BGCOLOR='#FFFF99'><B>Date Generated</B></TD>
+<TD><xtag-property name="Date Generated">Sun 11. Apr 23:11:38 2021</xtag-property></TD>
+<TD BGCOLOR='#FFFF99'><B>Target Speed:</B></TD>
+<TD><xtag-property name="TargetSpeed">-4</xtag-property></TD>
+</TR>
+</TABLE>
+&nbsp;<BR><TABLE BORDER CELLSPACING=0 WIDTH='100%'>
+<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD COLSPAN=4><B>Device Usage Statistics</B></TD></TR>
+<TR ALIGN=CENTER BGCOLOR='#FFFF99'><TD><B>Macro Statistics</B></TD><TD><B>Miscellaneous Statistics</B></TD><TD><B>Net Statistics</B></TD><TD><B>Site Usage</B></TD></TR><TR VALIGN=TOP>
+<xtag-section name="MacroStatistics">
+<TD>
+<xtag-group><xtag-group-name name=" Adders/Subtractors=2"> Adders/Subtractors=2</xtag-group-name>
+<UL>
+<LI><xtag-item1>32-bit adder=1</xtag-item1></LI>
+<LI><xtag-item1>32-bit addsub=1</xtag-item1></LI>
+</UL>
+</xtag-group>
+<xtag-group><xtag-group-name name=" Decoders=1"> Decoders=1</xtag-group-name>
+<UL>
+<LI><xtag-item1>1-of-32 decoder=1</xtag-item1></LI>
+</UL>
+</xtag-group>
+<xtag-group><xtag-group-name name=" Registers=64"> Registers=64</xtag-group-name>
+<UL>
+<LI><xtag-item1>Flip-Flops=64</xtag-item1></LI>
+</UL>
+</xtag-group>
+<xtag-group><xtag-group-name name=" RAMs=3"> RAMs=3</xtag-group-name>
+<UL>
+<LI><xtag-item1>16x32-bit single-port distributed RAM=1</xtag-item1></LI>
+<LI><xtag-item1>32x32-bit dual-port distributed RAM=2</xtag-item1></LI>
+</UL>
+</xtag-group>
+<xtag-group><xtag-group-name name=" Multiplexers=2"> Multiplexers=2</xtag-group-name>
+<UL>
+<LI><xtag-item1>32-bit 4-to-1 multiplexer=2</xtag-item1></LI>
+</UL>
+</xtag-group>
+</TD>
+</xtag-section>
+<xtag-section name="DesignStatistics">
+<TD>
+<xtag-group><xtag-group-name name="MiscellaneousStatistics">MiscellaneousStatistics</xtag-group-name>
+<UL>
+<LI><xtag-item1>AVG_LUT_FAN_IN=-1.000000</xtag-item1></LI>
+<LI><xtag-item1>AVG_SIG_FANOUT=-1.000000</xtag-item1></LI>
+<LI><xtag-item1>PK_NUM_BONDED_IOBS=32</xtag-item1></LI>
+<LI><xtag-item1>PK_NUM_JTAG_GATES=32</xtag-item1></LI>
+</UL>
+</xtag-group>
+</TD><TD>
+<xtag-group><xtag-group-name name="NetStatistics">NetStatistics</xtag-group-name>
+<UL>
+<LI><xtag-item1>NumNets_Active=32</xtag-item1></LI>
+<LI><xtag-item1>NumNets_Gnd=1</xtag-item1></LI>
+<LI><xtag-item1>NumNodesOfType_Gnd_INPUT=32</xtag-item1></LI>
+<LI><xtag-item1>NumNodesOfType_Gnd_OMUX=32</xtag-item1></LI>
+<LI><xtag-item1>NumNodesOfType_Gnd_OUTPUT=17</xtag-item1></LI>
+</UL>
+</xtag-group>
+</TD>
+</xtag-section>
+<xtag-section name="DeviceUsage">
+<TD>
+<xtag-group><xtag-group-name name="SiteSummary">SiteSummary</xtag-group-name>
+<UL>
+<LI><xtag-item2>IOB=32</xtag-item2></LI>
+<LI><xtag-item2>IOB_OUTBUF=32</xtag-item2></LI>
+<LI><xtag-item2>IOB_PAD=32</xtag-item2></LI>
+</UL>
+</xtag-group>
+</TD>
+</xtag-section>
+</TR></TABLE>
+&nbsp;<BR><TABLE BORDER CELLSPACING=0 WIDTH='100%'>
+<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD COLSPAN=4><B>Configuration Data</B></TD></TR><TR VALIGN=TOP>
+<xtag-section name="ReportConfigData">
+<TD>
+<xtag-group><xtag-group-name name="IOB_PAD">IOB_PAD</xtag-group-name>
+<UL>
+<LI><xtag-item3>DRIVEATTRBOX=[12:32]</xtag-item3></LI>
+<LI><xtag-item3>IOATTRBOX=[LVCMOS25:32]</xtag-item3></LI>
+<LI><xtag-item3>SLEW=[SLOW:32]</xtag-item3></LI>
+</UL>
+</TD><TD>
+</xtag-group>
+</TD>
+</xtag-section>
+</TR></TABLE>
+&nbsp;<BR><TABLE BORDER CELLSPACING=0 WIDTH='100%'>
+<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD COLSPAN=4><B>Pin Data</B></TD></TR><TR VALIGN=TOP>
+<xtag-section name="ReportConfigData">
+<TD>
+<xtag-group><xtag-group-name name="IOB">IOB</xtag-group-name>
+<UL>
+<LI><xtag-item1>O1=32</xtag-item1></LI>
+<LI><xtag-item1>PAD=32</xtag-item1></LI>
+</UL>
+</TD><TD>
+</xtag-group>
+<xtag-group><xtag-group-name name="IOB_OUTBUF">IOB_OUTBUF</xtag-group-name>
+<UL>
+<LI><xtag-item1>IN=32</xtag-item1></LI>
+<LI><xtag-item1>OUT=32</xtag-item1></LI>
+</UL>
+</TD><TD>
+</xtag-group>
+<xtag-group><xtag-group-name name="IOB_PAD">IOB_PAD</xtag-group-name>
+<UL>
+<LI><xtag-item1>PAD=32</xtag-item1></LI>
+</UL>
+</TD><TD>
+</xtag-group>
+</TD>
+</xtag-section>
+</TR></TABLE>
+&nbsp;<BR><TABLE BORDER CELLSPACING=0 WIDTH='100%'>
+<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD><B>Tool Usage</B></TD></TR>
+<TR VALIGN=TOP><TD ALIGN=LEFT>Command Line History<xtag-section name="CommandLineLog"><UL>
+<LI><xtag-cmdline>sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w &lt;ise_file&gt; &lt;fname&gt;.vhf</xtag-cmdline></LI>
+<LI><xtag-cmdline>xst -ise &lt;ise_file&gt; -intstyle ise -ifn &lt;fname&gt;.xst -ofn &lt;fname&gt;.syr</xtag-cmdline></LI>
+<LI><xtag-cmdline>sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w &lt;ise_file&gt; &lt;fname&gt;.vhf</xtag-cmdline></LI>
+<LI><xtag-cmdline>xst -ise &lt;ise_file&gt; -intstyle ise -ifn &lt;fname&gt;.xst -ofn &lt;fname&gt;.syr</xtag-cmdline></LI>
+<LI><xtag-cmdline>sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w &lt;ise_file&gt; &lt;fname&gt;.vhf</xtag-cmdline></LI>
+<LI><xtag-cmdline>sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w &lt;ise_file&gt; &lt;fname&gt;.vhf</xtag-cmdline></LI>
+<LI><xtag-cmdline>sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w &lt;ise_file&gt; &lt;fname&gt;.vhf</xtag-cmdline></LI>
+<LI><xtag-cmdline>sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w &lt;ise_file&gt; &lt;fname&gt;.vhf</xtag-cmdline></LI>
+<LI><xtag-cmdline>sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w &lt;ise_file&gt; &lt;fname&gt;.vhf</xtag-cmdline></LI>
+<LI><xtag-cmdline>sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w &lt;ise_file&gt; &lt;fname&gt;.vhf</xtag-cmdline></LI>
+<LI><xtag-cmdline>sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w &lt;ise_file&gt; &lt;fname&gt;.vhf</xtag-cmdline></LI>
+<LI><xtag-cmdline>sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w &lt;ise_file&gt; &lt;fname&gt;.vhf</xtag-cmdline></LI>
+<LI><xtag-cmdline>sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w &lt;ise_file&gt; &lt;fname&gt;.vhf</xtag-cmdline></LI>
+<LI><xtag-cmdline>sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w &lt;ise_file&gt; &lt;fname&gt;.vhf</xtag-cmdline></LI>
+<LI><xtag-cmdline>sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w &lt;ise_file&gt; &lt;fname&gt;.vhf</xtag-cmdline></LI>
+<LI><xtag-cmdline>xst -ise &lt;ise_file&gt; -intstyle ise -ifn &lt;fname&gt;.xst -ofn &lt;fname&gt;.syr</xtag-cmdline></LI>
+<LI><xtag-cmdline>sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w &lt;ise_file&gt; &lt;fname&gt;.vhf</xtag-cmdline></LI>
+<LI><xtag-cmdline>xst -ise &lt;ise_file&gt; -intstyle ise -ifn &lt;fname&gt;.xst -ofn &lt;fname&gt;.syr</xtag-cmdline></LI>
+<LI><xtag-cmdline>ngdbuild -ise &lt;ise_file&gt; &lt;fname&gt;.ngd</xtag-cmdline></LI>
+<LI><xtag-cmdline>map -ise &lt;ise_file&gt; -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o &lt;fname&gt;.ncd &lt;fname&gt;.ngd &lt;fname&gt;.pcf</xtag-cmdline></LI>
+<LI><xtag-cmdline>par -ise &lt;ise_file&gt; -w -intstyle ise -ol std -t 1 &lt;fname&gt;.ncd &lt;fname&gt;.ncd &lt;fname&gt;.pcf</xtag-cmdline></LI>
+<LI><xtag-cmdline>trce -ise &lt;ise_file&gt; -intstyle ise -e 3 -s 4 -xml &lt;design&gt; &lt;fname&gt;.ncd -o &lt;fname&gt;.twr &lt;fname&gt;.pcf</xtag-cmdline></LI>
+<LI><xtag-cmdline>sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w &lt;ise_file&gt; &lt;fname&gt;.vhf</xtag-cmdline></LI>
+<LI><xtag-cmdline>xst -ise &lt;ise_file&gt; -intstyle ise -ifn &lt;fname&gt;.xst -ofn &lt;fname&gt;.syr</xtag-cmdline></LI>
+<LI><xtag-cmdline>ngdbuild -ise &lt;ise_file&gt; &lt;fname&gt;.ngd</xtag-cmdline></LI>
+<LI><xtag-cmdline>map -ise &lt;ise_file&gt; -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o &lt;fname&gt;.ncd &lt;fname&gt;.ngd &lt;fname&gt;.pcf</xtag-cmdline></LI>
+<LI><xtag-cmdline>par -ise &lt;ise_file&gt; -w -intstyle ise -ol std -t 1 &lt;fname&gt;.ncd &lt;fname&gt;.ncd &lt;fname&gt;.pcf</xtag-cmdline></LI>
+<LI><xtag-cmdline>trce -ise &lt;ise_file&gt; -intstyle ise -e 3 -s 4 -xml &lt;design&gt; &lt;fname&gt;.ncd -o &lt;fname&gt;.twr &lt;fname&gt;.pcf</xtag-cmdline></LI>
+<LI><xtag-cmdline>bitgen -ise &lt;ise_file&gt; -intstyle ise -f &lt;fname&gt;.ut &lt;fname&gt;.ncd</xtag-cmdline></LI>
+</xtag-section></UL></TD></TR>
+</TABLE>
+</BODY></HTML>

@@ -1,0 +1,86 @@
+V3 46
+FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/ALU.vhd 2021/04/11.22:55:29 J.40
+EN work/ALU 1618171871 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/ALU.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ALU/Behavioral 1618171872 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/ALU.vhd EN work/ALU 1618171871
+FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/ctrl.vhd 2021/04/11.22:41:48 J.40
+EN work/ctrl 1618171873 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/ctrl.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ctrl/Behavioral 1618171874 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/ctrl.vhd EN work/ctrl 1618171873
+FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/DataMem.vhd 2021/04/11.22:16:10 J.40
+EN work/DataMem 1618171875 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/DataMem.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/DataMem/Behavioral 1618171876 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/DataMem.vhd \
+      EN work/DataMem 1618171875
+FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/File_Regs.vhd 2021/04/11.13:38:30 J.40
+EN work/File_Regs 1618171885 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/File_Regs.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/File_Regs/Behavioral 1618171886 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/File_Regs.vhd \
+      EN work/File_Regs 1618171885
+FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/mips.vhf 2021/04/11.23:11:08 J.40
+FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/MUX2V32.vhd 2021/04/11.22:10:39 J.40
+EN work/MUX2V32 1618171877 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/MUX2V32.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/MUX2V32/Behavioral 1618171878 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/MUX2V32.vhd \
+      EN work/MUX2V32 1618171877
+FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/MUX2V5.vhd 2021/03/28.17:18:12 J.40
+EN work/MUX2V5 1618171879 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/MUX2V5.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/MUX2V5/Behavioral 1618171880 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/MUX2V5.vhd \
+      EN work/MUX2V5 1618171879
+FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/PC_Update.vhd 2021/03/28.14:33:59 J.40
+EN work/PC_Update 1618171881 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/PC_Update.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/PC_Update/Behavioral 1618171882 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/PC_Update.vhd \
+      EN work/PC_Update 1618171881
+FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/ProgCnt.vhd 2021/03/28.16:44:51 J.40
+EN work/ProgCnt 1618171883 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/ProgCnt.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ProgCnt/Behavioral 1618171884 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/ProgCnt.vhd \
+      EN work/ProgCnt 1618171883
+FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/ROM32x32.vhd 2021/03/28.17:05:52 J.40
+EN work/ROM32x32 1618171887 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/ROM32x32.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ROM32x32/ROM32x32_arch 1618171888 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab5/mips/ROM32x32.vhd \
+      EN work/ROM32x32 1618171887
+FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab6/mips/mips.vhf 2021/04/11.23:11:08 J.40
+EN work/mips 1618771735 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab6/mips/mips.vhf \
+      PB ieee/std_logic_1164 1192821031 PH ieee/NUMERIC_STD 1192821033 LB UNISIM \
+      PH unisim/VCOMPONENTS 1194566982
+AR work/mips/BEHAVIORAL 1618771736 \
+      FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/Lab6/mips/mips.vhf EN work/mips 1618771735 \
+      CP ALU CP ctrl CP DataMem CP MUX2V32 CP MUX2V5 CP PC_Update CP ProgCnt \
+      CP File_Regs CP ROM32x32
+FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/mips/mips.vhf 2021/03/28.17:23:50 J.40
+FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/mips/MUX2V5.vhd 2021/03/28.17:18:12 J.40
+FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/mips/PC_Update.vhd 2021/03/28.14:33:59 J.40
+FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/mips/ProgCnt.vhd 2021/03/28.16:44:51 J.40
+FL C:/Users/rober/OneDrive/Desktop/Labs_CSO/mips/ROM32x32.vhd 2021/03/28.17:05:52 J.40
